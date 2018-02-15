@@ -1,0 +1,153 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+
+ 
+ /* --------------------------------------
+   Typography
+   -------------------------------------- */
+.feature:hover{
+  opacity: 0.7;
+  transform: scale(1.1);
+}
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+  
+.navbar-brand{padding:0px;
+   height: 100px;
+   width: 100px;
+}
+.nav{
+   padding-top: 15px;
+   margin-left: 20px; 
+}
+#searchInput {
+    width: 200px;
+     margin-top: 15px;
+ }
+ #x1{   
+    margin-top: 15px;}  
+ 
+  p {
+    color: white;
+  }
+
+
+   
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+.carousel-caption {
+   font-size: 24px;
+}
+
+.carousel-caption h4 {
+   font-size: 32px;
+}
+
+#myCarousel .item { height: 500px; }
+
+#slide1 {
+   background: url('../../images/superman.png') top  no-repeat;
+}
+
+#slide2 {
+   background: url('../../images/batman.png') top left no-repeat;
+}
+
+
+#slide3 {
+  background: url('../../images/zod.png') top no-repeat;
+}
+
+#myTab{
+   padding-top: 0px;
+}
+#contacts{
+   padding: 0px;
+}
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+ body{
+   background-image: url('../../images/background.jpg');
+ }
+
+footer{
+   background: url('../../images/foot1.png')
+
+}
+footer li{
+   list-style-type:  none;
+
+   }
+footer a{
+  color: white;
+     text-align: center;
+
+}
+footer li,strong,h6{
+   color: white;
+
+}
+footer li a:hover{
+  text-decoration: none;
+  color: grey;
+}
+footer h6{
+   margin-bottom: 0px;
+}
+ 
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+   #searchInput {
+     
+     margin-top: 0px;
+ }
+ #x1{   
+    margin-top: 0px;} 
+    .to-hide{
+   text-indent: -99999px;
+   position: fixed;
+}
+    
+ }
+
+
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+    .to-hide{
+   text-indent: -99999px;
+   position: fixed;
+}
+	
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+	
+}
